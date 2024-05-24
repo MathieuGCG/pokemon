@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('wallpaper.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+    color: white;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(pokepaper.jpg);
+    justify-content: center;
+}
+
+.card img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.card .types {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.card .types span {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.card .type-fire {
+    background-color: #F08030;
+}
+
+.card .type-water {
+    background-color: #6890F0;
+}
+
+.card .type-psychic {
+    background-color: #F85888;
+}
+
+.card .type-fairy {
+    background-color: #EF70EF;
+}
+
+.card .type-dragon {
+    background-color: #5060E1;
+}
+
+.card .type-flying {
+    background-color: #81B9EF;
+}
+
+.card .type-normal {
+    background-color: #9FA19F;
+}
+
+.card p {
+    margin: 10px;
+    color: white;
+}
+
+button {
+    background: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button.release {
+    background: #FF4136;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+button.release:hover {
+    background: #e0261b;
+}
+
